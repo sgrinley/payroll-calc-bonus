@@ -18,8 +18,6 @@ public class RefactorPC {
         displayPayroll(name, grossPay);
     }
 
-    // ✅ METHODS MUST BE OUTSIDE main()
-
     public static String getName(Scanner scanner) {
         System.out.print("Enter your name: ");
         return scanner.nextLine();
